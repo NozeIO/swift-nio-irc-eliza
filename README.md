@@ -1,5 +1,11 @@
 # swift-nio-irc-eliza
 
+![Swift4](https://img.shields.io/badge/swift-4-blue.svg)
+![iOS](https://img.shields.io/badge/os-iOS-green.svg?style=flat)
+![macOS](https://img.shields.io/badge/os-macOS-green.svg?style=flat)
+![tuxOS](https://img.shields.io/badge/os-tuxOS-green.svg?style=flat)
+![Travis](https://travis-ci.org/NozeIO/swift-nio-irc-eliza.svg?branch=develop)
+
 [SwiftNIO IRC](https://github.com/NozeIO/swift-nio-irc)
 is a Internet Relay Chat protocol implementation for
 [SwiftNIO](https://github.com/apple/swift-nio),
@@ -29,7 +35,7 @@ let package = Package(
     name: "MyElizaBotTool",
     dependencies: [
         .package(url: "https://github.com/NozeIO/swift-nio-irc-eliza.git",
-                 from: "TODO")
+                 from: "0.5.0")
     ],
     targets: [
         .target(name: "MyElizaBotTool",
