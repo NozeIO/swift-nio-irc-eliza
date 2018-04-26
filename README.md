@@ -22,7 +22,7 @@ This bot can be used standalone, or you can embed it as a Swift module.
 
 In your IRC just talk to nickname `Eliza`, she'll respond!
 
-<img src="http://zeezide.de/img/irc-eliza.png" />
+<img src="http://zeezide.de/img/irc-eliza-720x781.png" />
 
 ## Importing the module using Swift Package Manager
 
