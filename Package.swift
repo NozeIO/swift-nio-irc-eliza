@@ -11,9 +11,9 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/apple/swift-nio.git", 
                  from: "1.5.1"),
-        .package(url: "https://github.com/AlwaysRightInstitute/SwiftEliza",
+        .package(url: "https://github.com/AlwaysRightInstitute/SwiftEliza.git",
                  from: "1.0.0"),
-        .package(url: "https://github.com/NozeIO/swift-nio-irc",
+        .package(url: "https://github.com/NozeIO/swift-nio-irc.git",
                  from: "0.5.0")
     ],
     targets: [

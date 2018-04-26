@@ -11,7 +11,7 @@ is a Internet Relay Chat protocol implementation for
 [SwiftNIO](https://github.com/apple/swift-nio),
 including a client.
 
-SwiftNIO IRC Eliza, is an scalable Rogerian psychotherapist based on
+SwiftNIO IRC Eliza, is a scalable Rogerian psychotherapist based on
 the
 [SwiftEliza](https://github.com/kennysong/SwiftEliza)
 module. Eliza is always there for you!
@@ -22,7 +22,7 @@ This bot can be used standalone, or you can embed it as a Swift module.
 
 In your IRC just talk to nickname `Eliza`, she'll respond!
 
-<img src="http://zeezide.de/img/irc-eliza.png" />
+<img src="http://zeezide.de/img/irc-eliza-720x781.png" />
 
 ## Importing the module using Swift Package Manager
 
