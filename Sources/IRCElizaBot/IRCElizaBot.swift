@@ -52,8 +52,9 @@ open class IRCElizaBot : IRCClientDelegate {
     init(patient: IRCNickName, bot: IRCElizaBot) {
       self.patient = patient
       self.bot     = bot
-      self.delay   = .milliseconds(Int(bot.options.thinkingTime * 1000.0))
-      self.timeout = .seconds(Int(bot.options.sessionTimeout))
+      self.delay   = 
+            .milliseconds(TimeAmount.Value(bot.options.thinkingTime * 1000.0))
+      self.timeout = .seconds(TimeAmount.Value(bot.options.sessionTimeout))
       
       restartTimeout()
     }
