@@ -11,8 +11,8 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/AlwaysRightInstitute/SwiftEliza.git",
                  from: "1.0.0"),
-        .package(url: "https://github.com/NozeIO/swift-nio-irc.git",
-                 from: "0.5.1")
+        .package(url: "https://github.com/NozeIO/swift-nio-irc-client.git",
+                 from: "0.6.0")
     ],
     targets: [
         .target(name: "IRCElizaBot", dependencies: [ "IRC", "Eliza" ]),
