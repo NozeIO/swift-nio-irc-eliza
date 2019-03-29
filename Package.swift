@@ -12,7 +12,7 @@ let package = Package(
         .package(url: "https://github.com/AlwaysRightInstitute/SwiftEliza.git",
                  from: "1.0.0"),
         .package(url: "https://github.com/NozeIO/swift-nio-irc-client.git",
-                 from: "0.6.0")
+                 "0.6.0"..<"0.7.0")
     ],
     targets: [
         .target(name: "IRCElizaBot", dependencies: [ "IRC", "Eliza" ]),
